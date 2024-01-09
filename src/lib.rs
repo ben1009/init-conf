@@ -9,8 +9,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use rust_init::hello;
-
-fn main() {
-    println!("{}", hello::hello());
-}
+pub mod hello;

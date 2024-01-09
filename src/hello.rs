@@ -9,8 +9,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use rust_init::hello;
+pub fn hello() -> String {
+    "hello world".to_string()
+}
 
-fn main() {
-    println!("{}", hello::hello());
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_hello() {
+        assert_eq!(hello(), "hello world");
+    }
 }
