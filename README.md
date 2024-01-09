@@ -11,4 +11,4 @@
 - rustfmt config
 - toolchain
 - cargo makefile with dev as entrypoint
-- main.rs is just for test all the workflows, could be removed when import the another project
+- main.rs is just for test all the workflows, could be removed when import to the other project
